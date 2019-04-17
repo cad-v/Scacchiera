@@ -7,6 +7,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import java.nio.file.Files.size
 
@@ -19,6 +20,7 @@ class ScacchieraView:View {
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs, 0)
 
     //Devo sempre fare onDraw per far si che mi disegni qualcosa sulla view, super già sta scritto
+    var mActivity= MainActivity()
 
     var verti = 0
     var oriz = 0
