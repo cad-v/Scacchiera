@@ -115,6 +115,7 @@ class ScacchieraView:View {
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         if (event?.action == MotionEvent.ACTION_UP) {
             if (event.action != null) {
+
                 val x: Float = event.getX()
                 val y: Float = event.getY()
                 xi = (x / lato).toInt()   //colonna
