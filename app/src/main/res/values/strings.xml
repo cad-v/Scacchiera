@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="dimensione">Dimensione</string>
+    <string name="scacchiera">Scacchiera</string>
+    <string name="gioca">Gioca</string>
+    <string name="riavvia">Riavvia</string>
+    <string name="nvittorie">Nvittorie</string>
+    <string name="nmosse">Nmosse</string>
+    <string name="mosse">Mosse:</string>
+    <string name="vittorie">Vittorie:</string>
+</resources>
